@@ -6,7 +6,7 @@ SUMMARY = "Android kernel for the Huawei Watch 2 Bluetooth"
 HOMEPAGE = "https://android.googlesource.com/"
 LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://COPYING;md5=d7810fab7487fb0aad327b76f1be7cd7"
-COMPATIBLE_MACHINE = "sawfish"
+COMPATIBLE_MACHINE = "ray"
 
 SRC_URI = " git://android.googlesource.com/kernel/msm;branch=android-msm-sawshark-3.18-oreo-wear-dr;protocol=https \
     file://defconfig \
